@@ -1,0 +1,124 @@
+body {
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#header {
+	background-color: #01A048; 
+	
+}
+
+#main-heading {
+	font-family: Bradley Hand ITC, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	word-spacing: 0.3em;
+	margin-left: 10%;
+	color:  whitesmoke;
+}
+
+#nav1 {
+	background-color: #01A048;
+}
+
+#nav{
+	color:  whitesmoke;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.body {
+	color: whitesmoke;
+	text-align: justify;
+}
+
+.footer {
+	color: whitesmoke;
+	text-align: center;
+	background-color: #01A048;
+	padding: 10px;
+}
+
+.card {
+	background-color: #01A048;
+	color: whitesmoke;
+	text-align: justify;
+}
+
+#card-button {
+	float: right;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.contact {
+	color: whitesmoke;
+	margin-left: 42%;
+	
+}
+
+table {
+	margin-left: 38%;
+	border: 2px solid whitesmoke;
+	background-color: #01A048;
+	color: whitesmoke;
+}
+
+th {
+	padding: 15px;
+	text-align: right;
+}
+
+td {
+	padding: 15px;	
+}
+
+.form-button {
+	text-align: right;
+}
+
+
+.rw {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#shade:hover {
+	background-color: #01A048;
+}
+.contact a{
+	text-decoration: none;
+	color: white;
+
+}
+.contact a:hover{
+	color: #01A048;
+}
